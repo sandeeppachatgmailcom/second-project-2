@@ -1,0 +1,219 @@
+
+:root {
+    --backcolorwhite: #f9fafac8;
+    --white: #ffffff; 
+  }
+
+.image{
+    width: 30px;
+    height: 30px;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    background-color:transparent;
+    
+    }
+
+
+.menubutton{
+    background-color: rgb(40, 40, 91);
+    height: 30px;
+    width: auto;
+    color: white;
+    font-size: 10px;
+    padding: 14px;
+    text-align: center;
+    border: 1px solid rgb(91, 90, 90);
+ 
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.MainContainer{
+    height: 564px;
+    width: 74%;
+    margin-left: 10%;
+    background-color:var(--backcolorwhite);
+}
+.latestpanel{
+    height: 54px;
+    width: 100%;
+    margin-left: 0%;
+    background-color:var(--backcolorwhite);
+}
+.alignhorizondaly{
+    display: flex;
+    flex-direction: row;
+}
+.leftpanel{
+    height: 265px;
+    width: 50%;
+    margin-left: 0%;
+    border: 1px rgb(205, 176, 176) solid;
+    background-color:var(--backcolorwhite);
+}
+.rightpanel{
+    height: 265px;
+    width: 50%;
+    margin-left: 0%;
+    border: 1px rgb(205, 176, 176) solid;
+    background-color:var(--backcolorwhite);
+}
+.scrollpanel{
+    font-size: 5px;
+    color: red;
+    text-decoration: none;
+    border: 1px rgb(216, 208, 208) solid;
+    
+}
+.footerpanel{
+    height: 230px;
+    width: 100%;
+    border: 1px rgb(216, 208, 208) solid;
+    background-color:var(--backcolorwhite);
+}
+.footerbox{
+    width: 25%;
+    height: 100%;
+    background-color:var(--backcolorwhite);
+    
+    
+
+}
+
+.footerbutton a{
+    text-decoration: none;
+}
+.footerbutton{
+    background-color: transparent;
+    margin: 10px;
+    
+    text-align: left;
+    border: none;
+
+}
+.tailimagebar{
+    background-color:var(--backcolorwhite);
+    width: 100%;
+    height: 275px;
+    object-fit: contain;
+}
+.tailimagebar img {
+    width: 100%;
+    height: 275px;
+    object-fit: contain;
+}
+.loginbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border: 0px;
+    text-decoration: none;
+    width: 30%;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 5%;
+    color: aquamarine;
+}
+.loginbutton a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttonspace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(26, 26, 84);
+    border: 5px solid white;
+    text-decoration: none;
+    margin-left:30% ;
+    margin-top: -50px;
+    height: 40px;
+    width: 30%;
+     
+}
+.buttonspace a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;  
+    margin-top: 2px; 
+}
+.buttonspace button{
+    align-items: center;
+    
+}
+.otherbutton{
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-left: rgba(167, 165, 165, 0.693) solid 2px;
+    color: darkblue;
+    padding: 5px;
+    margin-top: 50px;
+   
+}
+.otherbuttonright{
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-left: rgba(167, 165, 165, 0.693) solid 2px;
+    color: darkblue;
+    padding: 5px;
+    margin-top: px;
+   
+}
+.otherbuttonright a{
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.otherbutton a{
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.para{
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.modifylistbox{
+    
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(236, 236, 236, 0);
+    border: 1px solid white;
+    text-decoration: none;
+    margin-left:30% ;
+    margin-top: -40px;
+    height: 40px;
+    width: 30%;
+}
+#combobox{
+    border-left: 50% ;
+    border-top: 50% ;
+}
+.image1{
+    width: 150px;
+    margin: 0px;
+}
